@@ -1,37 +1,105 @@
-/* SEÇÃO CONTATO */
 
-#contact {
-    display: flex;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* INICIO SEÇÃO PROVA SOCIAL */
+
+#proveSocial{
     justify-content: center;
 }
 
-#contact button {
+.titleProveSocial, .subTitleProveSocial, .fontProveSocial{
+    text-align: left;
+}
+
+.titleProveSocial{
+    font-weight: 700;
+}
+
+.titleProveSocial::before{
+    content:" ";
     background-color: #55da48;
-    border-radius: 6px;
-    width: 30%;
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.fontProveSocial{
+    font-size: 0.7em;
+}
+
+.col-text-prove{
     align-self: center;
 }
 
-#contact button:hover {
-    background-color: white;
-    color:black;
+.box-proveSocial{
+    margin: 70px 30px
 }
 
-#contact-area {
-    display: flex;
-    flex-direction: column;  
-    width: 100%; 
-    align-items: center;
+.row-prove{
+    margin: 9em 0px ;
 }
 
-form  {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    gap: 5px;    
+.imgProve{
+    max-width: 100%;
 }
 
-/* FIM SEÇÃO CONTATO */
+@media  screen and (max-width: 575px){
+
+    #proveSocial *{
+        padding: 0%;
+    }
+
+    .titleProveSocial, .subTitleProveSocial, .fontProveSocial{
+        margin-left: 12px;
+       
+    }
+    
+    .titleProveSocial{
+        font-size: 1.2em;
+        margin-top: 20px;
+        
+    }
+
+    .titleProveSocial::before{
+        content:" ";
+        background-color:transparent;
+        display: block;
+        height: 2px;
+        width: 100%;
+    }
+
+    .imgProve{
+        max-width: 51vh;
+    }
+
+    .row-prove{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4em 0px ;
+    }
+
+    .box-proveSocial{
+        margin: 70px 0px;
+    }
+
+    .col-text-prove{
+        align-self:auto;
+    }
+
+    
+}
+
+/* FIM SEÇÃO PROVA SOCIAL */
 
 
 /*-----INICIO ESTILIZAÇÃO SEÇÃO APRESENTAÇÃO EQUIPE----*/
@@ -48,6 +116,7 @@ form  {
 
 #titleMembers{
     text-align: center;
+    font-weight: 600;
     color: white;
     padding: 1.5em 1em;
 }
@@ -150,11 +219,6 @@ form  {
         
     }
 
-    .iconMembers{
-        max-width: 1.5em;
-    
-    }
-
     .card-text{
         margin-bottom: 2px;
     }
@@ -184,8 +248,8 @@ form  {
 
     .iconMembers{
         max-width: 2em;
-        margin-top: 1.2em;
-    
+        margin-top: 0.2em;
+        max-width: 1.5em;
     }
  
 }
