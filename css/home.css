@@ -34,7 +34,36 @@ form  {
 /* FIM SEÇÃO CONTATO */
 
 
-/*--------SEÇÃO APRESENTAÇÃO EQUIPE--------*/
+/*-----INICIO ESTILIZAÇÃO SEÇÃO APRESENTAÇÃO EQUIPE----*/
+
+/* estilização do section*/
+
+#members{
+    margin: 5em 0px;
+    background-color: #000000;
+}
+
+
+/* estilização do titulo*/
+
+#titleMembers{
+    text-align: center;
+    color: white;
+    padding: 1.5em 1em;
+}
+
+/* estilização dos cards*/
+
+#ourValues{
+    display: block;
+    max-width: 200px;
+    margin-top: 7rem;
+}
+
+#ourValues:hover{
+    color:#55da48;
+}
+
 
 .cards-wrapper{
     display: flex;
@@ -42,10 +71,13 @@ form  {
 
 .card{
     background-color: #373737;
-    margin: 2em 0.5em;
-    width: calc(100%/3);
+    margin: 2em 5em;
+    width: calc(100%/2);
     background: linear-gradient(to right, #373737 , #000000 );
-
+    border-radius: 10px; 
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+    scrollbar-width: thin;
 }
 
 
@@ -53,7 +85,6 @@ form  {
     filter: blur(10px);
     transform: scale(0.9, 0.9);
 }
-
 
 
 #imageMembers{
@@ -81,5 +112,83 @@ form  {
     box-shadow: 0px 0.9px 0px 0px #55da48 ;
 }
 
+#firstTitleOurValues{
+    margin-top: 30px;
+}
+
+.firstTitleOurValues::after{
+    content:" ";
+    background-color: #55da48;
+    display: block;
+    height: 1px;
+    width: 20%;
+}
+
+.boxOurValues:hover{
+    color: white;
+}
+
+#ourValuesMobile{
+    display: none;
+}
+
+#controlCarrousel{
+    width: 70px;
+}
+
+/* estilização para mobile*/
+
+@media  screen and (max-width: 500px){
+    
+    #ourValues{
+        display: none;
+    }
 
 
+    .card{
+        margin: 5px;
+        
+    }
+
+    .iconMembers{
+        max-width: 1.5em;
+    
+    }
+
+    .card-text{
+        margin-bottom: 2px;
+    }
+
+    .cards-wrapper{
+        height: 50vh;
+    }
+
+    #imageMembers{
+        max-width: 5em;
+    }
+
+    #titleMembers{
+        padding: 20px;
+    }
+
+    #ourValuesMobile{
+        display: block;
+        color: rgb(115, 116, 117);
+        margin: 10px 5px 5px 10px;
+    }
+
+
+    #controlCarrousel{
+        width: 30px;
+    }
+
+    .iconMembers{
+        max-width: 2em;
+        margin-top: 1.2em;
+    
+    }
+ 
+}
+
+
+/*-----FIM ESTILIZAÇÃO SEÇÃO APRESENTAÇÃO EQUIPE----*/
