@@ -1,0 +1,31 @@
+body {
+    font-family: Montserrat !important; 
+}
+
+
+ .testando {
+    font-family: Bitter;
+ }
+ 
+
+.t:hover {
+
+    color: #67bc48 !important ;
+
+}
+
+
+.box {
+    border-bottom: solid green 2px  ;
+}
+
+
+.st {
+    width: 130px;
+    
+}
+
+
+.focus-ring {
+    --bs-focus-ring-color: #4acc2a;
+    }
