@@ -42,6 +42,7 @@
     gap: 32px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.336);
     height: fit-content;
+    align-items: center;
 }
 
 #form-header {
@@ -50,13 +51,14 @@
     gap: 64px;
 }
 
-#cadastro {
+
+#login {
     position: relative;
     text-decoration: none;
     color: var(--color-green-50);
 }
 
-#cadastro::before {
+#login::before {
     position: absolute;
     content: '';
     width: 100%;
@@ -65,13 +67,13 @@
     bottom: -4px;
 }
 
-#login {
+#cadastro {
     position: relative;
     text-decoration: none;
     color: #000;
 }
 
-#login:hover {
+#cadastro:hover {
     transition: 0.2s;
     color: var(--color-green-50);
 }
@@ -115,23 +117,27 @@
     outline: none;
 }
 
-#cadastro-empresa-cliente {
+div i {
+    cursor: pointer;
+}
+
+#esqueceu-senha {
     display: flex;
     justify-content: center;
 }
 
-#cadastro-empresa-cliente a{
+#esqueceu-senha a{
     text-decoration: none;
     font-size: 16px;
     color:  rgb(5, 59, 5);
 }
 
-#cadastro-empresa-cliente a:hover {
+#esqueceu-senha a:hover {
     transition: 0.3s;
     color: var(--color-green-50);
 }
 
-#cadastrar-button {
+#login-button {
     border: none;
     background: var(--color-gradient);
     padding: 7px;
@@ -143,7 +149,7 @@
     width: 50%;
 }
 
-#cadastrar-button:hover {
+#login-button:hover {
     transition: 0.2s;
     transform: scale(1.05);
 }
