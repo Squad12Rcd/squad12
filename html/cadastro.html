@@ -36,7 +36,7 @@
                         CPF
                         <div class="input-space">
                             <i class="fa-solid fa-wallet"></i>
-                            <input type="text" id="cpf" name="cpf">
+                            <input type="text" id="cpf" name="cpf" autocomplete="off" minlength="14" maxlength="14" onkeypress="cpfMask()">
                         </div>
                     </label>
                 </div>
@@ -79,6 +79,7 @@
             </div>
         </form>
     </main>
+    <script src="../javascript/script.js"></script>
 </body>
 
 </html>
