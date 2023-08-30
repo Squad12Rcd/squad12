@@ -99,13 +99,6 @@ body{
     
 }
 
-/* FIM SEÇÃO PROVA SOCIAL */
-
-
-/*-----INICIO ESTILIZAÇÃO SEÇÃO APRESENTAÇÃO EQUIPE----*/
-
-/* estilização do section*/
-
 #members{
     margin: 5em 0px;
     background-color: #000000;
@@ -128,7 +121,6 @@ body{
     max-width: 200px;
     margin-top: 7rem;
 }
-
 #ourValues:hover{
     color:#55da48;
 }
@@ -178,7 +170,7 @@ body{
 
 .card-title{
     color: #55da48;
-    box-shadow: 0px 0.9px 0px 0px #55da48 ;
+    box-shadow: 0px 0.9px 0px 0px #55da48;
 }
 
 #firstTitleOurValues{
