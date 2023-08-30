@@ -1,0 +1,133 @@
+
+:root {
+    --main-color: #35ad25;
+    --primary-text-color: #35ad25;
+    --secondary-text-color: #5bce6a;
+    --secondary-color: #35ad25;
+    --tertiary-color: #35ad25;
+} 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.border-card {
+    border: solid 1px #35ad25 !important;
+    box-shadow: 10px 5px 5px #115e34;
+}
+
+.box {
+    border-bottom: solid green 2px  ;
+}
+
+.t:hover {
+
+    color: #67bc48 !important ;
+
+}
+
+.cabecalho {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+.display-1 {
+    font-size: 4rem;
+}
+
+.titulo {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .cabecalho {
+        min-height: 30vh;
+    }
+    .display-1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+/* rodapé */
+
+#footer {
+    color: var(--primary-text-color);
+    background-color: #2B332C;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 3rem 5rem;
+  }
+
+  #logoRodape{
+    width: 50%;
+    height: 150px;
+  }
+  
+  
+  #footer a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+  }
+
+    .contact-info,
+  .links-container {
+    width: 20%;
+  }
+  
+  .footer-brand {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-brand h2 {
+    background-color: var(--main-color);
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+  }
+  
+  
+  .social-networks p {
+    margin-bottom: 1rem;
+  }
+  
+  .networks {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+  }
+
+  .networks li {
+    list-style-type: none;
+  }
+  
+  #footer .networks i {
+    padding: 1rem;
+  }
+    
+
+  
+  /* Responsivo */
+  @media (max-width: 1800px) {
+    /* Geral */
+    body {
+      overflow-x: hidden;
+    }
+  
+    i {
+      padding: 1.5rem;
+      font-size: 1.5rem;
+    }
+  
+
+}
