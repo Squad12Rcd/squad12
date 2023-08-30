@@ -32,11 +32,11 @@
                 </div>
 
                 <div class="input-box">
-                    <label for="CNPJ">
+                    <label for="cnpj">
                         CNPJ
                         <div class="input-space">
                             <i class="fa-solid fa-building"></i>
-                            <input type="text" id="CNPJ" name="CNPJ">
+                            <input type="text" id="cnpj" name="cnpj" autocomplete="off" minlength="18" maxlength="18" onkeypress="cnpjMask()">
                         </div>
                     </label>
                 </div>
@@ -79,6 +79,7 @@
             </div>
         </form>
     </main>
+    <script src="../javascript/script.js"></script>
 </body>
 
 </html>
