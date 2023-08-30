@@ -154,6 +154,11 @@ div i {
     transform: scale(1.1);
 }
 
+#login-anchor {
+    text-decoration: none;
+    color: var(--color-green-100);
+}
+
 #logo {
     margin-bottom: 2%;
 }
