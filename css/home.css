@@ -1,39 +1,250 @@
-/* SEÇÃO CONTATO */
 
-#contact {
-    display: flex;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   align-items: center;
+   justify-content: center;
+}
+
+
+/* INICIO SEÇÃO PROVA SOCIAL */
+
+#proveSocial{
     justify-content: center;
 }
 
-#contact button {
+.titleProveSocial, .subTitleProveSocial, .fontProveSocial{
+    text-align: left;
+}
+
+.titleProveSocial{
+    font-weight: 700;
+}
+
+.titleProveSocial::before{
+    content:" ";
     background-color: #55da48;
-    border-radius: 6px;
-    width: 30%;
+    display: block;
+    height: 2px;
+    width: 100%;
+}
+
+.fontProveSocial{
+    font-size: 0.7em;
+}
+
+.col-text-prove{
     align-self: center;
 }
 
-#contact button:hover {
-    background-color: white;
-    color:black;
+.box-proveSocial{
+    margin: 70px 30px
 }
 
-#contact-area {
+.row-prove{
+    margin: 9em 0px ;
+}
+
+.imgProve{
+    max-width: 100%;
+}
+
+@media  screen and (max-width: 575px){
+
+    #proveSocial *{
+        padding: 0%;
+    }
+
+    .titleProveSocial, .subTitleProveSocial, .fontProveSocial{
+        margin-left: 12px;
+       
+    }
+    
+    .titleProveSocial{
+        font-size: 1.2em;
+        margin-top: 20px;
+        
+    }
+
+    .titleProveSocial::before{
+        content:" ";
+        background-color:transparent;
+        display: block;
+        height: 2px;
+        width: 100%;
+    }
+
+    .imgProve{
+        max-width: 51vh;
+    }
+
+    .row-prove{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 4em 0px ;
+    }
+
+    .box-proveSocial{
+        margin: 70px 0px;
+    }
+
+    .col-text-prove{
+        align-self:auto;
+    }
+
+    
+}
+
+#members{
+    margin: 5em 0px;
+    background-color: #000000;
+}
+
+
+/* estilização do titulo*/
+
+#titleMembers{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding: 1.5em 1em;
+}
+
+/* estilização dos cards*/
+
+#ourValues{
+    display: block;
+    max-width: 200px;
+    margin-top: 7rem;
+}
+#ourValues:hover{
+    color:#55da48;
+}
+
+
+.cards-wrapper{
     display: flex;
-    flex-direction: column;  
-    width: 100%; 
-    align-items: center;
 }
 
-form  {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    gap: 5px;    
+.card{
+    background-color: #373737;
+    margin: 2em 5em;
+    width: calc(100%/2);
+    background: linear-gradient(to right, #373737 , #000000 );
+    border-radius: 10px; 
+    overflow-y:scroll;
+    scroll-behavior:smooth;
+    scrollbar-width: thin;
 }
 
-/* FIM SEÇÃO CONTATO */
+
+.cards-wrapper:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+}
 
 
+#imageMembers{
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+.iconMembers{
+    max-width: 3em;
+
+}
+
+.carousel-inner{
+    background-color: black;
+}
+
+.card-text{
+    color: rgb(168, 173, 173);
+}
+
+.card-title{
+    color: #55da48;
+    box-shadow: 0px 0.9px 0px 0px #55da48;
+}
+
+#firstTitleOurValues{
+    margin-top: 30px;
+}
+
+.firstTitleOurValues::after{
+    content:" ";
+    background-color: #55da48;
+    display: block;
+    height: 1px;
+    width: 20%;
+}
+
+.boxOurValues:hover{
+    color: white;
+}
+
+#ourValuesMobile{
+    display: none;
+}
+
+#controlCarrousel{
+    width: 70px;
+}
+
+/* estilização para mobile*/
+
+@media  screen and (max-width: 500px){
+    
+    #ourValues{
+        display: none;
+    }
 
 
+    .card{
+        margin: 5px;
+        
+    }
 
+    .card-text{
+        margin-bottom: 2px;
+    }
+
+    .cards-wrapper{
+        height: 50vh;
+    }
+
+    #imageMembers{
+        max-width: 5em;
+    }
+
+    #titleMembers{
+        padding: 20px;
+    }
+
+    #ourValuesMobile{
+        display: block;
+        color: rgb(115, 116, 117);
+        margin: 10px 5px 5px 10px;
+    }
+
+
+    #controlCarrousel{
+        width: 30px;
+    }
+
+    .iconMembers{
+        max-width: 2em;
+        margin-top: 0.2em;
+        max-width: 1.5em;
+    }
+ 
+}
+
+
+/*-----FIM ESTILIZAÇÃO SEÇÃO APRESENTAÇÃO EQUIPE----*/
