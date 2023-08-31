@@ -6,6 +6,15 @@
     --secondary-color: #35ad25;
     --tertiary-color: #35ad25;
 } 
+.accordion-button:not(.collapsed) {
+  color: #e9ebe8;
+  background-color: #176521;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(23, 100, 13,0.753);
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -32,6 +41,7 @@ body {
     position: relative;
     color: white;
     text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+  
 }
 
 .display-1 {

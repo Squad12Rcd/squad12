@@ -1,25 +1,24 @@
-
 :root {
     --main-color: #35ad25;
     --primary-text-color: #35ad25;
     --secondary-text-color: #5bce6a;
     --secondary-color: #35ad25;
     --tertiary-color: #35ad25;
-} 
+}
 
-/* HEADER */ 
+/* HEADER */
 
 #logo {
     width: 40%
 }
 
 .box {
-    border-bottom: solid green 2px  ;
+    border-bottom: solid green 2px;
 }
 
 .t:hover {
 
-    color: #67bc48 !important ;
+    color: #67bc48 !important;
 
 }
 
@@ -57,7 +56,7 @@
 
 .imgProve {
     max-width: 100%;
-    
+
 }
 
 li {
@@ -73,13 +72,12 @@ li {
 #btn-cadastro {
     display: block;
     margin: auto;
-    
+
 }
 
 #btn-cadastro2 {
     display: none;
 }
-
 
 #btn-aboutproduct {
     margin-top: 100px;
@@ -98,8 +96,6 @@ li {
 }
 
 /* FIM SEÇÃO ABOUT PRODUCT */
-
-
 /* SEÇÃO QUEM SOMOS */
 
 #titleMembers {
@@ -121,7 +117,6 @@ li {
     color: #55da48;
 }
 
-
 .cards-wrapper {
     display: flex;
 }
@@ -137,18 +132,15 @@ li {
     scrollbar-width: thin;
 }
 
-
 .cards-wrapper:hover>.card:not(:hover) {
     filter: blur(10px);
     transform: scale(0.9, 0.9);
 }
 
-
 #imageMembers {
     max-width: 150px;
     margin: 10px;
     border-radius: 50%;
-
 }
 
 .iconMembers {
@@ -156,11 +148,9 @@ li {
 
 }
 
-
 .texto {
     color: rgb(168, 173, 173);
 }
-
 
 .card-title {
     color: #55da48;
@@ -191,7 +181,6 @@ li {
     width: 70px;
 }
 
-
 .icons {
     width: 30%;
 }
@@ -199,7 +188,6 @@ li {
 .cartao {
     overflow: hidden;
 }
-
 
 /* SEÇÃO CONTATO */
 
@@ -217,21 +205,21 @@ li {
 
 #contact button:hover {
     background-color: white;
-    color:black;
+    color: black;
 }
 
 #contact-area {
     display: flex;
-    flex-direction: column;  
-    width: 100%; 
+    flex-direction: column;
+    width: 100%;
     align-items: center;
 }
 
-form  {
+form {
     display: flex;
     flex-direction: column;
     width: 40%;
-    gap: 5px;    
+    gap: 5px;
 }
 
 /* rodapé */
@@ -242,60 +230,61 @@ form  {
     display: flex;
     justify-content: space-evenly;
     padding: 3rem 3rem 5rem;
-  }
+}
 
-  #logoRodape{
+#logoRodape {
     width: 50%;
     height: 150px;
-  }
-  
-  
-  #footer a {
+}
+
+.focus-ring {
+    --bs-focus-ring-color: #4acc2a;
+}
+
+#footer a {
     color: var(--primary-text-color);
     text-decoration: none;
-  }
+}
 
-    .contact-info,
-  .links-container {
+.contact-info,
+.links-container {
     width: 20%;
-  }
-  
-  .footer-brand {
+}
+
+.footer-brand {
     margin-bottom: 2rem;
-  }
-  
-  .footer-brand h2 {
+}
+
+.footer-brand h2 {
     background-color: var(--main-color);
     margin-bottom: 0.5rem;
     padding: 1rem;
-  }
-  
-  .contact-info p {
+}
+
+.contact-info p {
     margin-bottom: 1rem;
-  }
-  
-  
-  .social-networks p {
+}
+
+.social-networks p {
     margin-bottom: 1rem;
-  }
-  
-  .networks {
+}
+
+.networks {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
 
-  }
-  
-  .networks li {
+.networks li {
     list-style-type: none;
-  }
-  
-  #footer .networks i {
+}
+
+#footer .networks i {
     padding: 1rem;
-  }
-    
-  @media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 980px) {
 
     #btn-cadastro {
         display: none;
@@ -312,7 +301,6 @@ form  {
         align-items: center;
     }
 
-
     #cards-group .card {
         width: 80%;
         margin: auto;
@@ -324,11 +312,9 @@ form  {
         max-height: 400px;
     }
 
-
     #ourValues {
         display: none;
     }
-
 
     .card {
         margin: 5px;
@@ -344,7 +330,6 @@ form  {
         margin: auto;
     }
 
-
     #imageMembers {
         max-width: 5em;
     }
@@ -359,7 +344,6 @@ form  {
         margin: 10px 5px 5px 10px;
     }
 
-
     #controlCarrousel {
         width: 30px;
     }
@@ -369,10 +353,9 @@ form  {
         margin-top: 0.2em;
         max-width: 1.5em;
     }
-
 }
 
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
 
     #cards-group .card {
         width: 80%;
@@ -412,7 +395,6 @@ form  {
         margin: 10px 5px 5px 10px;
     }
 
-
     #controlCarrousel {
         width: 30px;
     }
@@ -424,4 +406,3 @@ form  {
     }
 
 }
-
