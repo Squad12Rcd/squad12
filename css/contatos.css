@@ -6,10 +6,13 @@
     --secondary-color: #35ad25;
     --tertiary-color: #35ad25;
 } 
-
-body {
+dy {
     font-family: 'Montserrat', sans-serif;
 } 
+
+.focus-ring {
+  --bs-focus-ring-color: #4acc2a;
+}
 
 .box {
     border-bottom: solid green 2px  ;
