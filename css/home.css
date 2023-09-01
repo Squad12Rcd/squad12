@@ -95,7 +95,6 @@ li {
     border-radius: 0px 80px 0px 0px;
 }
 
-/* FIM SEÇÃO ABOUT PRODUCT */
 /* SEÇÃO QUEM SOMOS */
 
 #titleMembers {
@@ -105,21 +104,13 @@ li {
     padding: 1.5em 1em;
 }
 
-/* estilização dos cards */
-
-#ourValues {
-    display: block;
-    max-width: 200px;
-    margin-top: 2rem;
-}
-
-#ourValues:hover {
-    color: #55da48;
-}
-
 .cards-wrapper {
     display: flex;
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
+
 
 .cartao {
     background-color: #2B332C;
@@ -132,14 +123,15 @@ li {
     scrollbar-width: thin;
 }
 
-.cards-wrapper:hover>.card:not(:hover) {
-    filter: blur(10px);
-    transform: scale(0.9, 0.9);
+#carouselExampleIndicators {
+    margin: auto;
+    width: 80%;
 }
 
 #imageMembers {
     max-width: 150px;
-    margin: 10px;
+    margin: auto;
+    margin-top: 20px;
     border-radius: 50%;
 }
 
@@ -157,26 +149,6 @@ li {
     box-shadow: 0px 0.9px 0px 0px #55da48;
 }
 
-#firstTitleOurValues {
-    margin-top: 30px;
-}
-
-.firstTitleOurValues::after {
-    content: " ";
-    background-color: #55da48;
-    display: block;
-    height: 1px;
-    width: 20%;
-}
-
-.boxOurValues:hover {
-    color: white;
-}
-
-#ourValuesMobile {
-    display: none;
-}
-
 #controlCarrousel {
     width: 70px;
 }
@@ -187,6 +159,10 @@ li {
 
 .cartao {
     overflow: hidden;
+}
+
+#ourValues {
+    margin: auto;
 }
 
 /* SEÇÃO CONTATO */
@@ -313,10 +289,6 @@ form {
         max-height: 400px;
     }
 
-    #ourValues {
-        display: none;
-    }
-
     .card {
         margin: 5px;
 
@@ -339,11 +311,6 @@ form {
         padding: 20px;
     }
 
-    #ourValuesMobile {
-        display: block;
-        color: rgb(115, 116, 117);
-        margin: 10px 5px 5px 10px;
-    }
 
     #controlCarrousel {
         width: 30px;
@@ -365,10 +332,6 @@ form {
         padding: 5px;
     }
 
-    #ourValues {
-        display: none;
-    }
-
     .card {
         margin: 5px;
 
@@ -388,12 +351,6 @@ form {
 
     #titleMembers {
         padding: 20px;
-    }
-
-    #ourValuesMobile {
-        display: block;
-        color: rgb(115, 116, 117);
-        margin: 10px 5px 5px 10px;
     }
 
     #controlCarrousel {
