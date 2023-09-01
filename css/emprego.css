@@ -43,6 +43,7 @@ hr {
     gap: 1.5rem;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
 }
 
 #busca-vagas input[type="text"],
