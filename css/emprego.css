@@ -18,12 +18,17 @@ hr {
     border-top: 1px solid #ccc;
 }
 
-/* Estilos para o cabeçalho */
-header {
-    background-color: #007BFF;
-    padding: 20px;
-    text-align: center;
-    color: white;
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10rem;
+}
+
+.cabecalho h1 {
+    color: #35AD25;
+    text-shadow: -2px 2px 4px rgba(26, 111, 11, 0.264);
 }
 
 /* Estilos para a seção de busca de vagas */
