@@ -4,19 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vagas</title>
-    <link rel="stylesheet" href="/css/emprego.css">
+    <link rel="stylesheet" href="../css/emprego.css">
+    <link rel="stylesheet" href="../css/homelogado.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
 </head>
 <body>
-    
-    <h1>Bem-vindo Area de Vagas de Empregos</h1>
-    <p>Página dedicada a conectar oportunidades de trabalho a indivíduos de baixa renda, promovendo inclusão e mobilidade social através de vagas acessíveis e suporte para o avanço profissional.</p>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-light">
+            <div class="container-fluid bg-nav box">
+                <a class="navbar-brand" href="#"><img class="img-fluid st teste-img" src="../img/2.png"
+                        alt="logo do projeto" width="150" height="100"></a>
+                <button class="navbar-toggler bg-light text-success" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto me-3 mb-2 mb-lg-0 fs-5 gap-4  ">
+                        <li class="nav-item">
+                            <a class="nav-link active t " href="../html/homelogado.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link t" href="../html/cursos.html"> Cursos </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link t" href="../html/emprego.html"> Vagas </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link t" href="../html/contatos.html"> Contatos </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="cabecalho">
+        <h1>Area de Vagas de Empregos</h1>
+        <p>Página dedicada a conectar oportunidades de trabalho a indivíduos de baixa renda, promovendo inclusão e mobilidade social através de vagas acessíveis e suporte para o avanço profissional.</p>
+    </div>
     <hr>
     <section id="busca-vagas">
         <div>
             <label>Busque vagas aqui!</label>
             <div>
                 <input type="text" name="" id="" placeholder="Procure por area de interesse...">
-            <button>Buscar</button>
+            <button class="btn btn-success">Buscar</button>
             </div>
         </div>
         <div>
@@ -64,31 +107,101 @@
     </section>
     <section id="vagas">
         <article>
-            <h2>Assistente Administrativo {EMPRESA} {CIDADE}</h2>
+            <h2>Angular Developer TC Engenharia - São Paulo</h2>
             <p>
-                {QUANTIDADE_VAGAS} Vagas disponiveis! <br>
+                10 Vagas disponiveis! <br>
                 Requisitos: <br>
-                    - +01 ano de experiencia na area <br>
-                    - Conhecimentos em Excel, PowerPoint, Word <br>
-                    - CLT <br>
+                - Mais de 5 anos de experiência trabalhando como desenvolvedor. <br>
+                - 2+ anos de experiência em Angular 2+. <br>
+                - Experiência em desenvolvimento de aplicações utilizando pilha de tecnologia Angular/Java. <br>
+                - Sólida experiência com HTML, CSS e escrita de código compatível com vários navegadores.<br>
+                - Forte conhecimento de técnicas de manipulação de Dom AJAX e JavaScript.<br>
+                - Experiência com MSSQL e/ou PostgreSQL<br>
+                - Experiência com React é um diferencial.<br>
+                - Nível avançado de inglês.<br>
+            </p>
+            <button>Candidatar</button>
+        </article>
+        <article>
+            <h2>Estagio Boticario - Rio de Janeiro (Hibrido)</h2>
+            <p>
+                1.000 Vagas disponiveis! <br>
+                Requisitos: <br>
                     - Beneficios: <br>
                     - VT, VA, Plano Odontologico. <br>
             </p>
             <button>Candidatar</button>
         </article>
         <article>
-            <h2>Consultor de vendas {EMPRESA} {CIDADE}</h2>
+            <h2>Junior em Python WX Automações - Salvador, BA (Remoto)</h2>
             <p>
-                {QUANTIDADE_VAGAS} Vagas disponiveis! <br>
+                32 Vagas disponiveis! <br>
                 Requisitos: <br>
-                    - Sem experiencia <br>
-                    - Boa comunicação e oratoria<br>
+                    - Conhecimentos avançados em Python <br>
+                    - Saber cria um bot com integrações com email
                     - CLT <br>
+                    - Beneficios: <br>
+                    - Gympass, VA<br>
+            </p>
+            <button>Candidatar</button>
+        </article>
+        <article>
+            <h2>Estagio em Analise e desenvolvimento de Sistemas - NoBank (Home-office)</h2>
+            <p>
+                100 Vagas disponiveis! <br>
+                Requisitos: <br>
+                    - +01 ano de experiencia na area <br>
+                    - Conhecimentos em JavaScript <br>
+                    - Conhecimento em C/ C++ <br>
+                    - Estagio <br>
                     - Beneficios: <br>
                     - VT, VA, Plano Odontologico. <br>
             </p>
             <button>Candidatar</button>
         </article>
     </section>
+
+    <footer class="container-fluid">
+
+        <div class=" mt-5 row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3" id="footer">
+
+            <div class="col" id="contact-info">
+                <div class="footer-brand">
+                    <img id="logoRodape" src="../img/logofooter.png" alt="conectjob" class="img-fluid h-50">
+                    <hr>
+                </div>
+                <p><i class="bi bi-geo-alt"></i> Praça Senador Salgado Filho, s/n° – Rio de Janeiro – RJ </p>
+                <p><i class="bi bi-telephone"></i>(99)9999-9999</p>
+                <p><i class="bi bi-envelope"></i>recodeprosquad12@gmail.com</p>
+
+            </div>
+
+            <div class="col mt-5">
+
+                <h4 class="mt-4 text-center">Outros serviços</h4>
+                <nav>
+                    <a href="#">Propriedade intelecutal</a>
+                    <hr>
+                    <a href="#">LGPD</a>
+                    <hr>
+                    <a href="#">Direito internacional</a>
+                </nav>
+            </div>
+
+            <div class="col mt-5">
+                <div class="social-networks">
+                    <h4 class="mt-4 text-center">Siga-nos</h4>
+                    <div class="networks">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="https://github.com/Squad12Rcd" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="container text-center mt-5"><i class="bi bi-c-circle"></i> ConnectJob - Todos os direitos
+                reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
