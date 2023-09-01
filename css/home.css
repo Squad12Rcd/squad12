@@ -104,8 +104,6 @@ li {
     padding: 1.5em 1em;
 }
 
-/* estilização dos cards */
-
 .cards-wrapper {
     display: flex;
     width: 60%;
