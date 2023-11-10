@@ -40,6 +40,15 @@ li {
     list-style-type: none;
 }
 
+/* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+.navbar{
+  margin: 0 auto;
+  max-width: 82rem;
+}
+
+/* END NEW */
+
+
 /* rodapé */
 
 #footer {
@@ -116,4 +125,16 @@ li {
     .screen {
         display: none;
     }
+
+}
+
+@media screen and (max-width: 968px) {
+
+  /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+   
+  .navbar{
+    margin: 5px 5px ;
+  }
+
+   /* END NEW */
 }

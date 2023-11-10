@@ -144,9 +144,9 @@ div i {
     border-radius: 4px;
     color: var(--color-green-100);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 12px;
     cursor: pointer;
-    width: 60%;
+    width: 33%;
 }
 
 #login-button:hover {

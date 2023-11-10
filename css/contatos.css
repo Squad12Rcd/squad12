@@ -108,8 +108,19 @@ dy {
   #footer .networks i {
     padding: 1rem;
   }
+
+  /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+  .navbar{
+    margin: 0 auto;
+    max-width: 82rem;
+  }
+
+  /* END NEW */
+
+
      
   /* Responsivo */
+
   @media (max-width: 1800px) {
     /* Geral */
     body {
@@ -120,7 +131,9 @@ dy {
       padding: 1.5rem;
       font-size: 1.5rem;
     }
+
 }
+
 
 @media (max-width: 768px) {
     .cabecalho {
@@ -129,4 +142,12 @@ dy {
     .display-1 {
         font-size: calc(1.525rem + 3.3vw);
     }
+
+
+    /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+    .navbar{
+      margin: 5px 5px ;
+    }
+    /* END NEW */
+
 }
