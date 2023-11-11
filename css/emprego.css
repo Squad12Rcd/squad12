@@ -5,12 +5,15 @@
     box-sizing: border-box;
 }
 
+
 /* Estilos gerais */
 
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     color: #333;
+    justify-content: center;
+    align-items: center;
 }
 
 hr {
@@ -108,9 +111,41 @@ article button {
     cursor: pointer;
 }
 
+/* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+.navbar{
+    margin: 0 auto;
+    max-width: 82rem;
+}
+
+/* END NEW */
+
+
+
 /* Estilos responsivos */
+
 @media (max-width: 768px) {
     article {
         width: 100%;
     }
+
+    /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+   
+    .navbar{
+        margin: 5px 5px ;
+    }
+
+    /* END NEW */
+
+}
+
+@media (max-width: 960px) {
+    
+    /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+   
+    .navbar{
+        margin: 5px 5px ;
+    }
+
+    /* END NEW */
+
 }

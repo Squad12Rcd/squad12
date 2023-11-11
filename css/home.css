@@ -22,6 +22,16 @@
 
 }
 
+/* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+.navbar{
+    margin: 0 auto;
+    max-width: 82rem;
+}
+
+/* END NEW */
+
+
+
 /* SEÇÃO PROVA SOCIAL */
 
 #proveSocial {
@@ -321,6 +331,15 @@ form {
         margin-top: 0.2em;
         max-width: 1.5em;
     }
+
+    /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+   
+    .navbar{
+        margin: 5px 5px ;
+    }
+
+    /* END NEW */
+
 }
 
 @media screen and (max-width: 500px) {

@@ -124,10 +124,21 @@ body {
   #footer .networks i {
     padding: 1rem;
   }
+
+  /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+  /* aqui, pela imagem de banner ocupar toda a largura, fica um pouco mais larga do que a navbar*/
+
+  .navbar{
+    margin: 0 auto;
+    max-width: 82rem;
+  }
+
+/* END NEW = . */
     
 
   
   /* Responsivo */
+
   @media (max-width: 1800px) {
     /* Geral */
     body {
@@ -140,4 +151,26 @@ body {
     }
   
 
+}
+
+@media screen and (max-width: 960px) {
+  
+  /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+   
+  .navbar{
+    margin: 5px 5px ;
+}
+
+/* END NEW */
+}
+
+@media screen and (max-width: 500px) {
+
+  /* NEW = centralizar conteúdo navbar; adicionar margin logo*/
+   
+  .navbar{
+    margin: 5px 5px ;
+}
+
+/* END NEW */
 }
